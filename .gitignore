@@ -1,0 +1,12 @@
+# Generated TPC-H databases (several GB; rebuild with scripts/generate_tcph_db.py)
+data/
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite-journal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
